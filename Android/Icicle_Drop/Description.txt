@@ -1,0 +1,4 @@
+Icicle Drop is an Android project created by my partner and I in which the user controls a ship that 
+must either dodge or intentionally be hit by falling icicles(depending on the game mode). This 
+application was created in an agile environment were we need to demonstrate a working prototypes 
+periodically as well as right up a report on progress, issues, and changes made from the original concept.

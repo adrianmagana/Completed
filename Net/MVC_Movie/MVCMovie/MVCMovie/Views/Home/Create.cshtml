@@ -1,0 +1,38 @@
+﻿@model MVCMovie.Models.Movie
+
+@{ 
+    ViewData["Title"] = "Add Movie";
+}
+
+<h2>@ViewBag.Title</h2>
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Title" class="control-label"></label>
+        @Html.EditorFor(movie => movie.Title)
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Genre" class="control-label"></label>
+        @Html.EditorFor(movie => movie.Genre)
+        <span asp-validation-for="Genre" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        @Html.EditorFor(movie => movie.Price)
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ReleaseDate" class="control-label"></label>
+        @Html.EditorFor(movie => movie.ReleaseDate)
+        <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+</form>

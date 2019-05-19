@@ -1,0 +1,61 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.FickrViewerForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csprojResolveAssemblyReference.cache
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.pdb
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csprojResolveAssemblyReference.cache
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.FlickrViewerForm.resources
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.Properties.Resources.resources
+C:\Users\pnguyen\Downloads\ch28asyn\ch28asyn\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.GenerateResource.Cache
+C:\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+C:\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+C:\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.pdb
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csprojResolveAssemblyReference.cache
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.FlickrViewerForm.resources
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.Properties.Resources.resources
+C:\Users\009910925\Desktop\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.GenerateResource.Cache
+E:\cecs475lab6\New folder\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+E:\cecs475lab6\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+E:\cecs475lab6\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+E:\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+E:\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+E:\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+E:\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe
+E:\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.pdb
+E:\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csprojResolveAssemblyReference.cache
+E:\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.FlickrViewerForm.resources
+E:\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.Properties.Resources.resources
+E:\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.GenerateResource.Cache
+E:\New folder\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+E:\New folder\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe
+E:\New folder\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.pdb
+E:\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csprojResolveAssemblyReference.cache
+E:\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.FlickrViewerForm.resources
+E:\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.Properties.Resources.resources
+E:\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.GenerateResource.Cache
+E:\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+E:\New folder\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.pdb
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csprojAssemblyReference.cache
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.FlickrViewerForm.resources
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.Properties.Resources.resources
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.GenerateResource.cache
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+C:\Users\Adrian\Desktop\for github\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb

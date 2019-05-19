@@ -1,0 +1,4 @@
+An Android application developed in an agile environment that keeps track of how many steps were 
+taken while carrying your smartphone. Additional features include a login/register, sharing, and logging 
+in with Facebook, a widget to see information on the home screen, and additional information such as 
+calories burnt and distance traveled.
