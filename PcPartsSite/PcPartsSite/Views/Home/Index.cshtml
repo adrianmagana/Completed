@@ -1,0 +1,64 @@
+﻿@addTagHelper *, PcPartsSite
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <h2>Welcome to Pc Parts</h2>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell" style="width:100%;padding:0;">
+                    <img src="~/images/product_images/f1.jpg" />
+                </div>
+
+                <div class="carousel-cell" style="width:100%;">
+                    <img src="~/images/product_images/f2.jpg" />
+                </div>
+
+                <div class="carousel-cell" style="width:100%;">
+                    <img src="~/images/product_images/f3.jpg" />
+                </div>
+
+                <div class="carousel-cell" style="width:100%;">
+                    <img src="~/images/product_images/f4.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3>Sections</h3>
+    <div class="container">
+        <div class="row flex">
+            <div class="col-xs-3 flex" style="align-items:flex-end;">
+                <a href="@Url.Action("ListProducts","Home", new { value = 1, filter = "Cat" })" style="display:block; width:100%;">
+                    <img class="product-img" src="~/images/icons/pc.png" />
+                    <p class="text-center">PCs</p>
+                </a>
+            </div>
+
+            <div class="col-xs-3 flex" style="align-items:flex-end;">
+                <a href="@Url.Action("ListProducts","Home", new { value = 2, filter = "Cat" })" style="display:block; width:100%;">
+                    <img class="product-img" src="~/images/icons/laptop.png" />
+                    <p class="text-center">Laptops</p>
+                </a>
+            </div>
+
+            <div class="col-xs-3 flex" style="align-items:flex-end;">
+                <a href="@Url.Action("ListProducts","Home", new { value = 3, filter = "Cat" })" style="display:block; width:100%;">
+                    <img class="product-img" src="~/images/icons/cpu.png" />
+                    <p class="text-center">Processors</p>
+                </a>
+            </div>
+
+            <div class="col-xs-3 flex" style="align-items:flex-end;">
+                <a href="@Url.Action("ListProducts","Home", new { value = 4, filter = "Cat" })" style="display:block; width:100%;">
+                    <img class="product-img" src="~/images/icons/gc.png" />
+                    <p class="text-center">Graphics Cards</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <h3>On Sale Now</h3>
+    <vc:product-carousel />
+</div>

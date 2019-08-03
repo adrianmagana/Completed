@@ -1,0 +1,104 @@
+﻿@addTagHelper *, PcPartsSite
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - PC Parts</title>
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </environment>
+    <environment exclude="Development">
+        @*<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+                  asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+                  asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+            <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />*@
+    </environment>
+    <link rel="stylesheet" href="~/css/Layout.css" asp-append-version="true" />
+    @RenderSection("Styles", false)
+</head>
+<body>
+    @Html.AntiForgeryToken()
+    <header>
+        <nav class="navbar navbar-expand-md nav-dark">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="@Url.Action("Index","Home")">
+                    <img class="logo" src="~/images/LogoGreen.png" alt="PC Parts Logo" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <vc:head-nav />
+                <div class="flex right-section" style="align-items:center;">
+                    <form id="SearchForm" asp-controller="Home" asp-action="ListProducts" class="form-inline nav-search">
+                        <input type="hidden" name="filter" value="Search" />
+                        <input id="SearchBar" name="value" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button type="button" class="btn search-btn" onclick="CheckThenSubmit();"><span class="glyphicon glyphicon-search"></span></button>
+                    </form>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a class="glyph-link push-right" href="@Url.Action("ListProducts","Product")"><span class="glyphicon glyphicon-lg glyphicon-user"></span> @User.Identity.Name</a>
+                        <form class="inline-block" asp-controller="Account" asp-action="Logout">
+                            <button type="submit" class="btn">Logout</button>
+                        </form>
+
+                    }
+                    else
+                    {
+                        <a class="glyph-link push-right" href="@Url.Action("Login","Account")"><span class="glyphicon glyphicon-lg glyphicon-user"></span> Login</a>
+                    }
+                    <a class="glyph-link" href="@Url.Action("Cart","Home")"><span class="glyphicon glyphicon-lg glyphicon-shopping-cart"></span> Cart</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+        <div class="col-xs-12">
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+
+    </div>
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+<script type="text/javascript">
+    function CheckThenSubmit(){
+        var val = $("#SearchBar").val();
+        if (!(val == null || val == "")) {
+            $("#SearchForm").submit();
+        }
+    }
+</script>

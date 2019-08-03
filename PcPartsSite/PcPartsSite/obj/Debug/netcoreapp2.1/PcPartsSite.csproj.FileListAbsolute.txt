@@ -1,0 +1,120 @@
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csprojAssemblyReference.cache
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorAssemblyInfo.cache
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorAssemblyInfo.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.AssemblyInfoInputs.cache
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.AssemblyInfo.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.TagHelpers.input.cache
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.TagHelpers.output.cache
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorCoreGenerate.cache
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorTargetAssemblyInfo.cache
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorTargetAssemblyInfo.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.dll
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.pdb
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.deps.json
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.runtimeconfig.json
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.runtimeconfig.dev.json
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.dll
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.pdb
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.Views.dll
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.Views.pdb
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.Views.pdb
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csproj.CopyComplete
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\ListProducts.g.cshtml.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddProduct.g.cshtml.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Admin.g.cshtml.cs
+C:\Users\Adrian\source\repos\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddCategory.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.deps.json
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.runtimeconfig.json
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.runtimeconfig.dev.json
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.dll
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.pdb
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.Views.dll
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.Views.pdb
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csprojAssemblyReference.cache
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorAssemblyInfo.cache
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorAssemblyInfo.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.AssemblyInfoInputs.cache
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.AssemblyInfo.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.TagHelpers.input.cache
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.TagHelpers.output.cache
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorCoreGenerate.cache
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddProduct.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\ListProducts.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Admin.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorTargetAssemblyInfo.cache
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorTargetAssemblyInfo.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.Views.pdb
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.dll
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.pdb
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csproj.CopyComplete
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryDDL\Default.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddCategory.g.cshtml.cs
+C:\Users\Adrian\Desktop\in progress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\HeadNav\Default.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.deps.json
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.runtimeconfig.json
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.runtimeconfig.dev.json
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.dll
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.pdb
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.Views.dll
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\bin\Debug\netcoreapp2.1\PcPartsSite.Views.pdb
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csprojAssemblyReference.cache
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csproj.CoreCompileInputs.cache
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorAssemblyInfo.cache
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorAssemblyInfo.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.AssemblyInfoInputs.cache
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.AssemblyInfo.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.TagHelpers.input.cache
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.TagHelpers.output.cache
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorCoreGenerate.cache
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\ListProducts.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\CategoryDDL\Default.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\HeadNav\Default.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Admin.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorTargetAssemblyInfo.cache
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.RazorTargetAssemblyInfo.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.Views.pdb
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.dll
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.pdb
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\PcPartsSite.csproj.CopyComplete
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\ViewProduct.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\ProductCarousel\Default.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\AddCategory.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\AddSubCategory.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\DeleteCategory.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\DeleteSubCategory.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\ListCategories.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\UpdateCategory.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\UpdateSubCategory.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Filter\AddFilter.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Filter\AddFilterItem.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Filter\DeleteFilter.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Filter\ListFilters.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Filter\UpdateFilter.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Filter\UpdateFilterItem.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Product\AddProduct.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Product\DeleteProduct.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Product\ListProducts.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Product\UpdateProduct.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\_ListFilters.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Cart.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Adrian\Desktop\InProgress\PcPartsSite\PcPartsSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Categories.g.cshtml.cs

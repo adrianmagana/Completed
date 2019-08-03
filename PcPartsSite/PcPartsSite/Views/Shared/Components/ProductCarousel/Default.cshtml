@@ -1,0 +1,27 @@
+﻿@model IEnumerable<PcPartsSite.Models.Product>
+
+<link rel="stylesheet" href="~/lib/Flickity/Flickity_v2.2.1.css">
+<script src="~/lib/Flickity/Flickity_v2.2.1.js"></script>
+<link rel="stylesheet" href="~/css/ViewComponents/ProductCarousel.css">
+
+    <div class="carousel prod-carousel" data-flickity='{ "wrapAround": true }'>
+        @foreach (Product product in Model)
+        {
+            <div class="prod-carousel-cell carousel-cell">
+                @{
+                    string base64 = Convert.ToBase64String(product.Image);
+                    base64 = String.Format("data:image/gif;base64,{0}", base64);
+                }
+                <a href="@Url.Action("ViewProduct", "Home", new { id = product.Id })"><img class="product-img" src="@base64" /></a>
+                <a href="@Url.Action("ViewProduct", "Home", new { id = product.Id })" class="name">@Html.DisplayFor(p => product.Name)</a>
+                <div class="text-right">
+                    <p>Was:<s>@Html.DisplayFor(p => product.Price)</s></p>
+                    <p><span class="discount-block">-@Html.DisplayFor(p => product.Discount) off</span></p>
+                </div>
+               
+                @{decimal finalPrice = (decimal)(product.Price * (1 - product.Discount));}
+                <p class="price text-right">@finalPrice.ToString("C")</p>
+            </div>
+
+        }
+    </div>

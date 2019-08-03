@@ -1,0 +1,14 @@
+﻿@model IEnumerable<PcPartsSite.Models.Category>
+
+@foreach (Category cat in Model)
+{
+    if (ViewBag.id == cat.Id)
+    {
+        <option value="@cat" selected>@cat.CatName</option>
+    }
+    else
+    {
+        <option value="@cat">@cat.CatName</option>
+    }
+
+}

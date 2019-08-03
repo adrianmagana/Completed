@@ -1,0 +1,24 @@
+﻿@model List<PcPartsSite.Models.ViewModels.CategorySectionViewModel>
+
+@{
+    ViewData["Title"] = "Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link href="~/css/Home/Categories.css" rel="stylesheet" type="text/css" />
+}
+
+<h2>Categories</h2>
+<div class="category-section">
+    @foreach (PcPartsSite.Models.ViewModels.CategorySectionViewModel sec in Model)
+    {
+        <a class="category" data-target=".nav-collapse" data-toggle="collapse" href="@Url.Action("ListProducts","Home", new {value = sec.Category.Id, filter =  "Cat" })">@Html.DisplayFor(x => sec.Category.CatName)</a>
+        <ul>
+            @foreach (SubCategory subCat in sec.SubCategories)
+            {
+                <li><a href="@Url.Action("ListProducts","Home", new { value = subCat.Id, filter =  "SubCat" })">@subCat.SubCatName</a></li>
+            }
+        </ul>
+    }
+</div>

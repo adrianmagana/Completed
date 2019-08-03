@@ -1,0 +1,61 @@
+﻿@model PcPartsSite.Models.Product
+@addTagHelper *, PcPartsSite
+
+@{
+    ViewData["Title"] = "Add Product";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-action="AddProduct" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        @Html.EditorFor(Product => Product.Name)
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        @Html.TextAreaFor(Product => Product.Description, 5, 1, null)
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        @Html.EditorFor(Product => Product.Price)
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Discount" class="control-label"></label>
+        @Html.EditorFor(Product => Product.Discount)
+        <span asp-validation-for="Discount" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SubCategory.Category.CatName" class="control-label"></label>
+        <select name="catId" asp-items="ViewBag.Categories"
+            onchange="form.action='@Url.Action("AddProductRefresh")'; form.submit();"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SubCategory" class="control-label"></label>
+        <select asp-for="SubCategoryId" asp-items="ViewBag.SubCategories"></select>
+        <span asp-validation-for="SubCategoryId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Image" class="control-label"></label>
+        <input type="file" name="file" accept=".png, .jpg, .jpeg" />
+        <span asp-validation-for="Image" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+
+</form>

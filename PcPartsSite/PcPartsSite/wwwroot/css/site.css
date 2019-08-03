@@ -1,0 +1,82 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-bottom: 20px;
+}
+
+s {
+    color: #808080;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex{
+    display:flex;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.delete-btn {
+    font-weight: bold;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, .form-group textarea, .form-group select {
+    min-width: 150px;
+    width: 25%;
+}
+
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.product-img{
+    width:100%;
+    height:auto;
+}
+
+.discount {
+    color: #00C000;
+}
+
+.discount-block {
+    background-color: #00C000;
+    color:#FFFFFf;
+}
+
+.no-margin{
+    margin:0;
+}
+
+.marginL-1{
+    margin-left:1em;
+}
+
+.marginV-20{
+    margin-top:20px;
+    margin-bottom:20px;
+}

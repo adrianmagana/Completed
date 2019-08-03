@@ -1,0 +1,17 @@
+﻿
+.category-section ul {
+    list-style-type: none;
+}
+
+.category-section a {
+    color: #000000;    
+}
+
+.category-section a:hover{
+    color: #808080;  
+}
+
+.category {
+    font-size: 18px;
+    margin-bottom:10px;
+}

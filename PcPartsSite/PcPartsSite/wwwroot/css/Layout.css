@@ -1,0 +1,143 @@
+﻿.logo {
+    height: 100%;
+    padding: 4px;
+}
+
+.navbar .glyphicon{
+    color:#ffffff;
+}
+
+.nav-search {
+    display: inline-flex;
+}
+
+.search-btn {
+    margin-left:5px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
+.glyph-link {
+    padding: 10px;
+    margin:0 5px;
+}
+
+.glyphicon-lg{
+    font-size:20px;
+}
+
+.nav-dark, thead {
+    color: #ffffff;
+    background-color: #343a40;
+}
+
+    .nav-dark li a, .nav-dark a{
+        color: #ffffff;
+       
+    }
+
+        .nav-dark li a:hover, .nav-dark li a:focus,
+        .nav-dark a:hover, .nav-dark a:focus,
+        .nav-dark a:hover span, .nav-dark a:focus span {
+            color: #808080;
+            background-color: #333333;
+        }
+
+    .nav-dark .btn{
+        background-color:transparent;
+    }
+
+        .nav-dark .btn:hover {
+            color: #808080;
+            background-color: #333333;
+        }
+
+    .nav-dark .navbar-toggle{
+        border-color:#333;
+    }
+
+    .nav-dark .navbar-toggle .icon-bar{
+        background-color:#fff;
+    }
+.navbar-brand{
+    padding:0px;
+}
+
+
+.push-right{
+    margin-left: auto;
+}
+
+#SearchBar{
+    width:350px;
+}
+@media(max-width:1200px) {
+    #SearchBar {
+        width: 150px;
+    }
+}
+
+@media(max-width:991px) {
+    .dropdown-menu{
+        display:none !important;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+        .navbar-collapse.collapse {
+            display: none !important;
+        }
+
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+
+        .navbar-nav > li {
+            float: none;
+        }
+
+            .navbar-nav > li > a {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .collapsing {
+        overflow: hidden !important;
+    }
+}
+
+@media(max-width:767px) {
+}
+
+@media only screen and (max-width : 480px) {
+    .right-section{
+        display:block;
+    }
+    .nav-search{
+        display: flex;       
+    }
+}
+@media (max-width: 576px) {
+   
+}

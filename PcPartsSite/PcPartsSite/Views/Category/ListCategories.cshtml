@@ -1,0 +1,80 @@
+﻿@model IEnumerable<PcPartsSite.Models.Category>
+
+
+@{
+    ViewData["Title"] = "Categories";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+@{
+    PcPartsSite.Models.SubCategory DemosubCategory = new SubCategory();
+}
+
+<h2>@ViewBag.Title</h2>
+<div class="form-group">
+    <div class="flex" style="margin-bottom:10px; align-items:center; justify-content: space-between; width: 25%;">
+        <label asp-for="@DemosubCategory.Category" class="no-margin"></label>
+        <button type="button" onclick="location.href='@Url.Action("AddCategory")'" style="margin-left:1em;">Add Category</button>
+    </div>
+
+    <select id="Categories" name="id" onchange="refresh()">
+        @foreach (Category category in Model)
+        {
+            if (category.Id == ViewBag.SelectedId)
+            {
+                <option selected value="@category.Id">@category.CatName</option>
+            }
+            else
+            {
+                <option value="@category.Id">@category.CatName</option>
+            }
+
+        }
+    </select>
+    <a onclick="UpdateCategory()" class="glyphicon glyphicon-pencil" style="background:none;border:none;padding:0;" title="Edit"></a> |
+    <a onclick="DeleteCategory()" class="glyphicon glyphicon-remove" style="background:none;border:none;padding:0;" title="Remove"></a>
+
+</div>
+
+                                        <!-- SUB-CATEGORY SECTION -->
+
+<div class="form-group">
+    <div class="flex" style="margin-bottom:10px; align-items:center; justify-content: space-between; width: 25%;">
+        <label asp-for="@DemosubCategory.SubCatName" class="no-margin"></label>
+        <button type="button" onclick="location.href='@Url.Action("AddSubCategory")'" style="margin-left:1em;">Add SubCategory</button>
+    </div>
+
+    <select id="SubCategories" asp-items="@{new SelectList(ViewBag.SubCategories, "Id", "SubCatName");}"></select>
+    <a onclick="UpdateSubCategory()" class="glyphicon glyphicon-pencil" style="background:none;border:none;padding:0;" title="Edit"></a> |
+    <a onclick="DeleteSubCategory()" class="glyphicon glyphicon-remove" style="background:none;border:none;padding:0;" title="Remove"></a>
+
+</div>
+
+<script type="text/javascript">
+
+    function refresh() {
+        var id = $("#Categories").val();
+        window.location.href = "@Url.Action("ListCategories", new { id = "" })/" + id;
+    }
+
+    function UpdateCategory() {
+        var id = $("#Categories").val();
+        window.location.href = "@Url.Action("UpdateCategory")/" + id;
+    };
+
+    function DeleteCategory() {
+        var id = $("#Categories").val();
+        window.location.href = "@Url.Action("DeleteCategory")/" + id;
+    };
+    //          Sub-Category Section
+
+     function UpdateSubCategory() {
+        var id = $("#SubCategories").val();
+        window.location.href = "@Url.Action("UpdateSubCategory")/" + id;
+    };
+
+    function DeleteSubCategory() {
+        var id = $("#SubCategories").val();
+        window.location.href = "@Url.Action("DeleteSubCategory")/" + id;
+    };
+</script>

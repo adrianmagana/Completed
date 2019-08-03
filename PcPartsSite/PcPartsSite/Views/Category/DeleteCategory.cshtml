@@ -1,0 +1,53 @@
+﻿@model PcPartsSite.Models.Category
+
+@{
+    ViewData["Title"] = "Delete Category";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+@{
+    PcPartsSite.Models.SubCategory demoSubCat = new SubCategory();
+    PcPartsSite.Models.Product demoProd = new Product();
+}
+
+<h2>Delete</h2>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <p><b>@Html.DisplayNameFor(p => Model.CatName):</b> @Html.DisplayFor(p => Model.CatName)</p>
+
+    <h3>This will Delete the Following SubCategories</h3>
+    <table class="table">
+        <tr>
+            <th>@Html.DisplayNameFor(x => demoSubCat.SubCatName)</th>
+        </tr>
+        @foreach (SubCategory subCategory in ViewBag.SubCategories)
+        {
+            <tr>
+                <td>@subCategory.SubCatName</td>
+            </tr>
+        }
+    </table>
+
+    <h3>This will Delete the Following Products</h3>
+    <table class="table">
+        <tr>
+            <th>@Html.DisplayNameFor(p => demoProd.Name)</th>
+            <th>@Html.DisplayNameFor(p => demoProd.Price)</th>
+            <th>@Html.DisplayNameFor(p => demoProd.Description)</th>
+            <th>@Html.DisplayNameFor(p => demoProd.SubCategory.SubCatName)</th>
+        </tr>
+
+
+        @foreach (PcPartsSite.Models.Product product in ViewBag.Products)
+        {
+            <tr>
+                <td>@Html.DisplayFor(x => product.Name)</td>
+                <td>@Html.DisplayFor(x => product.Price)</td>
+                <td>@Html.DisplayFor(x => product.Description)</td>
+                <td>@Html.DisplayFor(x => product.SubCategory.SubCatName)</td>
+            </tr>
+        }
+
+    </table>
+    <button title="Delete" onclick="location.href='@Url.Action("DeleteCategoryConfirmed", new { id = Model.Id })'">Delete</button>
+</div>

@@ -1,0 +1,42 @@
+﻿@model PcPartsSite.Models.FilterItem
+@{
+    ViewData["Title"] = "Update Filter Item";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-action="UpdateFilterItem">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    @Html.HiddenFor(fi => fi.Id)
+    @Html.HiddenFor(fi => fi.FilterId)
+    <div class="form-group">
+        <label asp-for="Display" class="control-label"></label>
+        @Html.EditorFor(c => c.Display)
+        <span asp-validation-for="Display" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Value" class="control-label"></label>
+        @Html.EditorFor(c => c.Value)
+        <span asp-validation-for="Value" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MinValue" class="control-label"></label>
+        @Html.EditorFor(c => c.MinValue)
+        <span asp-validation-for="MinValue" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MaxValue" class="control-label"></label>
+        @Html.EditorFor(c => c.MaxValue)
+        <span asp-validation-for="MaxValue" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+</form>

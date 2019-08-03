@@ -1,0 +1,46 @@
+﻿@model PcPartsSite.Models.CartItem
+@{
+    ViewData["Title"] = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    string base64 = Convert.ToBase64String(Model.Product.Image);
+    base64 = String.Format("data:image/gif;base64,{0}", base64);
+}
+@section Styles {
+    <link href="~/css/Home/ViewProduct.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="row">
+    <div class="col-xs-6">
+        <img class="product-img" src="@base64" />
+    </div>
+
+    <div class="col-xs-6">
+        <p class="name"> @Html.DisplayFor(p => Model.Product.Name)</p>
+        @if (Model.Product.Discount > 0)
+        {
+            <div class="discount-sec">
+                <s>@Html.DisplayFor(p => Model.Product.Price)</s>
+                <span class="discount">@Html.DisplayFor(p => p.Product.Discount)</span>
+            </div>
+            decimal finalPrice = (decimal)(Model.Product.Price * (1 - Model.Product.Discount));
+            <p class="price">@finalPrice.ToString("C")</p>
+        }
+        else
+        {
+            <div class="discount-sec"></div>
+            <p class="price">@Html.DisplayFor(p => Model.Product.Price)</p>
+        }
+        <form asp-action="AddToCart">
+            @Html.HiddenFor(m => m.ProductId)
+            <input type="text" asp-for="Quantity" value="1" />
+            <button type="submit" class="btn btn-primary">Add To Cart</button>
+
+        </form>
+
+    </div>
+</div>
+<p>@Html.DisplayFor(p => p.Product.Description)</p>
+

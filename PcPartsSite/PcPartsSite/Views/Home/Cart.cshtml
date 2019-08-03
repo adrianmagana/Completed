@@ -1,0 +1,54 @@
+﻿@model IEnumerable<PcPartsSite.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+@{
+    CartItem demoItem = new CartItem();
+    decimal total = 0;
+}
+
+<div>
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Image</th>
+                <th>@Html.DisplayNameFor(x => demoItem.Product.Name)</th>
+                <th>@Html.DisplayNameFor(x => demoItem.Quantity)</th>
+                <th>Final Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CartItem item in Model)
+            {
+                string base64 = Convert.ToBase64String(item.Product.Image);
+                base64 = String.Format("data:image/gif;base64,{0}", base64);
+                decimal finalPrice = (decimal)(item.Product.Price * (1 - item.Product.Discount));
+                total += finalPrice;
+                <tr style="vertical-align:bottom;">
+                    <td><img src="@base64" style="width:auto; height:100px;" /></td>
+                    <td>@item.Product.Name</td>
+                    <td><input type="text" asp-for="@item.Quantity" style="max-width:50px;" /> </td>
+                    <td>@finalPrice.ToString("C")</td>
+                    <td><a href="@Url.Action("DeleteCartItem", new { id = item.Id })"><span class="glyphicon glyphicon-remove"></span></a></td>
+                </tr>
+            }
+            @{
+                total = (total * Product.TAX) + total;
+            }
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>@total.ToString("C")</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

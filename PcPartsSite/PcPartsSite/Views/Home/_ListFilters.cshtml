@@ -1,0 +1,24 @@
+﻿@model List<PcPartsSite.Models.ViewModels.FilterSectionViewModel>
+
+<form asp-action="ListProducts">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        @Html.HiddenFor(m => m[i].SectionFilter.Name)
+        <h3>@Html.DisplayFor(m => m[i].SectionFilter.Name)</h3>
+        <ul style="list-style:none;">
+            @for (int j = 0; j < Model[i].selectableFilters.Count; j++)
+            {
+            <li>
+                @Html.CheckBoxFor(model => model[i].selectableFilters[j].isSelected, true)
+                @Html.HiddenFor(model => model[i].selectableFilters[j].filter.Id)
+                @Html.HiddenFor(model => model[i].selectableFilters[j].filter.Display)
+                @Html.HiddenFor(model => model[i].selectableFilters[j].filter.MinValue)
+                @Html.HiddenFor(model => model[i].selectableFilters[j].filter.MaxValue)
+                @Html.DisplayFor(model => model[i].selectableFilters[j].filter.Display)
+            </li>
+            }
+        </ul>
+    }
+
+    <button type="submit">Submit</button>
+</form>

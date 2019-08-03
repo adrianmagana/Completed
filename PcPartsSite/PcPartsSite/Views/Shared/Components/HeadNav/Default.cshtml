@@ -1,0 +1,17 @@
+﻿@model IEnumerable<PcPartsSite.Models.Category>
+
+<ul class="nav navbar-nav">
+    <li><a href="@Url.Action("Categories","Home")">View Categories</a></li>
+    @foreach (Category cat in Model)
+    {
+    <li class="dropdown">
+        <a data-target="nav-collapse" data-toggle="collapse" href="@Url.Action("ListProducts","Home", new {value = cat.Id, filter =  "Cat" })">@cat.CatName</a>
+        <ul class="dropdown-menu collapse nav-dark">
+            @foreach (SubCategory sc in cat.SubCategories)
+            {
+                <li><a href="@Url.Action("ListProducts","Home", new { value = sc.Id, filter =  "SubCat" })">@sc.SubCatName</a></li>
+            }
+        </ul>
+    </li>
+    }
+</ul>

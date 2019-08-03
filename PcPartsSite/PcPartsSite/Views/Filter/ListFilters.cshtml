@@ -1,0 +1,75 @@
+﻿@model IEnumerable<PcPartsSite.Models.Filter>
+
+
+@{
+    ViewData["Title"] = "Filters";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+@{
+    PcPartsSite.Models.FilterItem DemoFilterItem = new FilterItem();
+}
+
+<h2>@ViewBag.Title</h2>
+<div class="form-group">
+    <div class="flex" style="margin-bottom:10px; align-items:center; justify-content: space-between; width: 25%;">
+        <label asp-for="@DemoFilterItem.Filter" class="no-margin"></label>
+        <button type="button" onclick="location.href='@Url.Action("AddFilter")'" style="margin-left:1em;">Add Filter</button>
+    </div>
+    <select id="Filters" name="id" onchange="refresh()">
+        @foreach (Filter filter in Model)
+        {
+            if (filter.Id == ViewBag.SelectedId)
+            {
+                <option selected value="@filter.Id">@filter.Name</option>
+            }
+            else
+            {
+                <option value="@filter.Id">@filter.Name</option>
+            }
+
+        }
+    </select>
+    <button onclick="UpdateFilter()" style="background:none;border:none;padding:0;"><span class="glyphicon glyphicon-pencil"></span></button> |
+    <button onclick="DeleteFilter()" style="background:none;border:none;padding:0;"><span class="glyphicon glyphicon-remove"></span></button>
+</div>
+
+
+<div class="form-group">
+    <div class="flex" style="margin-bottom:10px; align-items:center; justify-content: space-between; width: 25%;">
+        <label asp-for="@DemoFilterItem.Display" class="no-margin"></label>
+        <button type="button" onclick="location.href='@Url.Action("AddFilterItem")'" style="margin-left:1em;">Add Filter Item</button>
+    </div>
+        <select id="FilterItems" asp-items="@{new SelectList(ViewBag.FilterItems, "Id", "Display");}"></select>
+        <button onclick="UpdateFilterItem()" style="background:none;border:none;padding:0;"><span class="glyphicon glyphicon-pencil"></span></button> |
+        <button onclick="DeleteFilterItem()" style="background:none;border:none;padding:0;"><span class="glyphicon glyphicon-remove"></span></button>
+    </div>
+
+    <script type="text/javascript">
+
+    function refresh() {
+        var id = $("#Filters").val();
+        window.location.href = "@Url.Action("ListFilters", new { id = "" })/" + id;
+    }
+
+    function UpdateFilter() {
+        var id = $("#Filters").val();
+        window.location.href = "@Url.Action("UpdateFilter")/" + id;
+    };
+
+    function DeleteFilter() {
+        var id = $("#Filters").val();
+        window.location.href = "@Url.Action("DeleteFilter")/" + id;
+    };
+    //          Sub-Category Section
+
+     function UpdateFilterItem() {
+         var id = $("#FilterItems").val();
+        window.location.href = "@Url.Action("UpdateFilterItem")/" + id;
+    };
+
+    function DeleteFilterItem() {
+        var id = $("#FilterItems").val();
+        window.location.href = "@Url.Action("DeleteFilterItem")/" + id;
+    };
+    </script>

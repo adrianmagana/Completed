@@ -1,0 +1,74 @@
+﻿@model PcPartsSite.Models.Product
+@addTagHelper *, PcPartsSite
+
+@{
+    ViewData["Title"] = "Update Product";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<form asp-action="UpdateProduct" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        @Html.Hidden("Id")
+    </div>
+    <div class="form-group">
+        @Html.HiddenFor(product => product.Image)
+    </div>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        @Html.EditorFor(Product => Product.Name)
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        @Html.TextAreaFor(Product => Product.Description, 5, 1, null)
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        @Html.EditorFor(Product => Product.Price)
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+
+    <label asp-for="Image" class="control-label"></label>
+    <div>
+        <span>Change Image File? </span>
+        <input type="checkbox" name="changeImg" data-toggle="collapse" data-target="#imgInput" style="min-width:unset; width:unset" ; />
+        <span class="text-danger @ViewBag.ImageValidation" data-valmsg-for="Name" data-valmsg-replace="true">
+            no image was selected or the file submitted was not the proper file type.
+        </span>
+    </div>
+    <div class="form-group">
+        <div id="imgInput" class="collapse">
+            <input type="file" name="file" accept=".png, .jpg, .jpeg" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Discount" class="control-label"></label>
+        @Html.EditorFor(Product => Product.Discount)
+        <span asp-validation-for="Discount" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SubCategory.Category.CatName" class="control-label"></label>
+        <select name="catId" class="style-name cancel" asp-items="ViewBag.Categories"
+                onchange=" form.action='@Url.Action("UpdateProductRefresh")'; form.submit();"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SubCategory" class="control-label"></label>
+        <select asp-for="SubCategoryId" asp-items="ViewBag.SubCategories"></select>
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+
+</form>

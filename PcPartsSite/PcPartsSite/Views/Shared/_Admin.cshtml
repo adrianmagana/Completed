@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav class="navbar">
+    <ul class="nav navbar-nav">
+        <li><a href="@Url.Action("ListProducts","Product")">Products</a></li>
+        <li><a href="@Url.Action("ListCategories","Category")">Categories</a></li>
+        <li><a href="@Url.Action("ListFilters","Filter")">Filters</a></li>     
+    </ul>
+</nav>
+
+@RenderBody()

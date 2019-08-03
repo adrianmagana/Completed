@@ -1,0 +1,21 @@
+﻿@model PcPartsSite.Models.Product
+@{
+    ViewData["Title"] = "DeleteProduct";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<h2>Delete</h2>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <p><b>@Html.DisplayNameFor(p => Model.Name):</b> @Html.DisplayFor(p => Model.Name)</p>
+    <p><b>@Html.DisplayNameFor(p => Model.Price):</b> @Html.DisplayFor(p => Model.Price)</p>
+    <p><b>@Html.DisplayNameFor(p => Model.Description):</b> @Html.DisplayFor(p => Model.Description)</p>
+    @{
+        string base64 = Convert.ToBase64String(Model.Image);
+        base64 = String.Format("data:image/gif;base64,{0}", base64);
+    }
+    <img src="@base64" />
+    <hr />
+</div>
+
+<button title="Delete" onclick="location.href='@Url.Action("DeleteProductConfirmed", new { id = Model.Id })'">Delete</button>
