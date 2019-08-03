@@ -12540,11 +12540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adrian\\Desktop\\Completed\\Net\\MVC Movie\\MVCMovie\\MVCMovie\\MVCMovie.csproj",
+      "projectUniqueName": "C:\\Users\\Adrian\\Desktop\\Completed\\Net\\MVC_Movie\\MVCMovie\\MVCMovie\\MVCMovie.csproj",
       "projectName": "MVCMovie",
-      "projectPath": "C:\\Users\\Adrian\\Desktop\\Completed\\Net\\MVC Movie\\MVCMovie\\MVCMovie\\MVCMovie.csproj",
+      "projectPath": "C:\\Users\\Adrian\\Desktop\\Completed\\Net\\MVC_Movie\\MVCMovie\\MVCMovie\\MVCMovie.csproj",
       "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adrian\\Desktop\\Completed\\Net\\MVC Movie\\MVCMovie\\MVCMovie\\obj\\",
+      "outputPath": "C:\\Users\\Adrian\\Desktop\\Completed\\Net\\MVC_Movie\\MVCMovie\\MVCMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
