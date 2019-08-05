@@ -1,0 +1,5 @@
+This application is a website designed to sell parts for computers. Some features include filtering,
+categories, a cart system, user authentication, admin roles, and third party integrated software. 
+It uses ASP.NET Core and Entity Framework's code first approach with a MS SQL Server database for the backend. 
+User authentication and role based authorization were added to enable users to have a cart associated with 
+their account, and admin to securely add data to the database without having to go through SQL. 
