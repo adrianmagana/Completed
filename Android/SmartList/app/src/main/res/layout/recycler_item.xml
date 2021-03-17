@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="2dp">
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="test" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="1" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/strike"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:paddingBottom="5dp"
+        android:layout_centerVertical="true"
+        android:background="@android:color/black"
+        android:visibility="gone"/>
+
+</RelativeLayout>
