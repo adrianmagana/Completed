@@ -1,0 +1,2 @@
+C:\Users\xxadr\source\repos\Cypher\Cypher\bin\Debug\netcoreapp3.1\win-x64\publish\Cypher.pdb
+C:\Users\xxadr\source\repos\Cypher\Cypher\bin\Debug\netcoreapp3.1\win-x64\publish\Cypher.exe

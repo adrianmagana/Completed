@@ -1,0 +1,5 @@
+Smart List is a shopping list application that attempts to order items on your shopping list based on the order you are likely to get them. 
+The predictive sorting works based on the tendency people have to follow their same path around the store especially when grocery shopping. 
+The application achieves this by assigning a value to each item that goes up or down based on when the item was crossed out for that trip and 
+sorting using that number. Aside from the sorting mechanism the app also has a widget and autocomplete suggestions from previously 
+added or saved items. 

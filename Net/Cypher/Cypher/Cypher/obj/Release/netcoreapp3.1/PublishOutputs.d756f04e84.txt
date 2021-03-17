@@ -1,0 +1,6 @@
+C:\Users\xxadr\Desktop\ex\KeyValues.xml
+C:\Users\xxadr\Desktop\ex\Cypher.exe
+C:\Users\xxadr\Desktop\ex\Cypher.dll
+C:\Users\xxadr\Desktop\ex\Cypher.deps.json
+C:\Users\xxadr\Desktop\ex\Cypher.runtimeconfig.json
+C:\Users\xxadr\Desktop\ex\Cypher.pdb

@@ -1,0 +1,6 @@
+C:\Users\xxadr\source\repos\Cypher\Cypher\bin\Release\netcoreapp3.1\publish\KeyValues.xml
+C:\Users\xxadr\source\repos\Cypher\Cypher\bin\Release\netcoreapp3.1\publish\Cypher.exe
+C:\Users\xxadr\source\repos\Cypher\Cypher\bin\Release\netcoreapp3.1\publish\Cypher.dll
+C:\Users\xxadr\source\repos\Cypher\Cypher\bin\Release\netcoreapp3.1\publish\Cypher.deps.json
+C:\Users\xxadr\source\repos\Cypher\Cypher\bin\Release\netcoreapp3.1\publish\Cypher.runtimeconfig.json
+C:\Users\xxadr\source\repos\Cypher\Cypher\bin\Release\netcoreapp3.1\publish\Cypher.pdb

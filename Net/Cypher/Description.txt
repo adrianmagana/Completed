@@ -1,0 +1,5 @@
+This is a quick desktop application that replicates some of the basic conceptions of https security. 
+The application itself can send symmetric and asymmetric encrypted messages between the client and server. 
+The code was designed to mimic how a server and client would create a secure connection. The secure 
+connection is done by the client using a public key, provided the server, to encrypt a copy of a new key. 
+The encrypted key is then sent to the server where it is decrypted so both sides are capable of encrypting and decrypting messages. 

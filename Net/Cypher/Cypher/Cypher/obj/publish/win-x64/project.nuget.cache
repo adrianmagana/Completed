@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "P9OBn+BMH2cPQ65+KQuV0ian73dORjL38SA+pUK+EJrZR0WxTq6QEV3SSj2MSVIPhf7FoPfdomRBFdRFLgrpvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xxadr\\source\\repos\\Cypher\\Cypher\\Cypher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xxadr\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.10\\microsoft.netcore.app.runtime.win-x64.3.1.10.nupkg.sha512",
+    "C:\\Users\\xxadr\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.10\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.10.nupkg.sha512",
+    "C:\\Users\\xxadr\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.10\\microsoft.aspnetcore.app.runtime.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
