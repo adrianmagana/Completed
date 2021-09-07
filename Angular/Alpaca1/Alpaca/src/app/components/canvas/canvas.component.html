@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-12 col-xl">
+        <canvas class="canvas" #canvas width="720" height="720"></canvas>
+    </div>
+    <div class="col-12 col-xl">
+        <div class="option-group">
+            <h2>Categories</h2>
+            <button  class="btn btn-primary btn-lg option" type="button" *ngFor="let cat of categories"
+                (click)="changeCategory(cat)">{{cat | titlecase}}</button>
+        </div>
+        <div class="option-group">
+            <h2>Styles</h2>
+            <button class="btn btn-primary btn-lg option" type="button" *ngFor="let style of currentStyles"
+                (click)="changeStyle(style)">{{style | removeExtension | titlecase}}</button>
+        </div>
+
+        <div>
+            <label class="color-selector-label">Background Color: </label>
+            <input type="color" (change)="changeColor(cp.value)" #cp value="#000000">
+        </div>
+        <button class="btn btn-warning btn-lg" (click)="randomize()">Randomize</button>  
+    </div>
+
+</div>
+<div class="row">
+    <div class="col">
+      <button class="btn btn-success btn-lg download" (click)="download()">Download</button>  
+    </div>
+</div>

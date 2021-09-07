@@ -1,0 +1,29 @@
+
+  .canvas {
+    border: 1px solid #000;
+  }
+
+  .option{
+     margin-bottom: .25rem;
+     margin-right: .25rem;
+     padding: .5rem 1.5rem;
+     border-radius: 1.5rem;
+  }
+
+  .color-selector-label {
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+
+  .option-group{
+    margin-bottom: 1.5rem;
+  }
+
+  .download{
+    margin-left: auto;
+    display: block;
+  }
+
+  .active{
+    background-color: #000 !important;
+  }

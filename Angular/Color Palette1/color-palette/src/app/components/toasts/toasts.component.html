@@ -1,0 +1,9 @@
+<ngb-toast
+*ngFor="let toast of toastService.toasts"
+[autohide]="true"
+[delay]="1000"
+(hidden)="toastService.remove(toast)"
+>
+<div class="colorBox" style="background-color: {{toast}};"></div>
+{{toast}} copied to clipboard
+</ngb-toast>

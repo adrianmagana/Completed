@@ -1,0 +1,10 @@
+.colorBox{
+    display:inline-block;
+     width: 1rem; 
+     height:1rem;
+}
+
+:host{
+    top:initial !important;
+    bottom: 0;
+}

@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <p class="text-danger" [style.display]="errorDisplay">Problem reaching Color Mind Api. Please try again later.</p>
+    <div class="col-lg col-4 mt-3" *ngFor="let hex of rgbValues| rgbToHexValues">
+      <div class="color-card" (click)="copyToClipboard(hex)">
+        <svg class="color-container" viewBox="0 0 100 100">
+          <rect class="color" style="fill: {{hex}};"></rect>
+        </svg>
+        <span class="hex">{{hex}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col text-center">
+      <button class="btn btn-primary mt-4" type="button" (click)="generatePalette()">Generate Palette</button>
+    </div>
+  </div>
+
+  <toasts aria-live="polite" aria-atomic="true"></toasts>
+
+</div>
+
